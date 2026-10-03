@@ -1,0 +1,76 @@
+# General-purpose instruction data, OpenAI-compatible endpoint.
+# Cost for a full run: ~144 seeds x 6 instructions = 864 answers, roughly $0.6-1.5 with
+# gpt-4o-mini. Use `sft-forge cost -c configs/general.yaml` to see the current estimate.
+
+run:
+  name: general-sft
+  output_dir: runs
+  seed: 17
+  resume: true
+
+provider:
+  kind: openai_compat
+  base_url: ${OPENAI_BASE_URL:-https://api.openai.com/v1}
+  api_key: ${OPENAI_API_KEY}
+  timeout_s: 120
+  max_retries: 5
+  rate_limit_per_minute: 500
+
+models:
+  generator: ${SFT_FORGE_GENERATOR_MODEL:-gpt-4o-mini}
+  judge: ${SFT_FORGE_JUDGE_MODEL:-gpt-4o-mini}
+  prices: {}
+
+generation:
+  temperature: 0.9
+  top_p: 0.95
+  max_tokens: 1200
+  concurrency: 12
+  seeds_per_topic: 6
+  response_candidates: 1
+
+seeds:
+  source: taxonomy
+  domains: []          # empty = every domain in the bundled taxonomy
+  limit: null
+  shuffle: true
+  expansion:
+    enabled: false     # flip on once the bundled taxonomy starts feeling repetitive
+    per_domain: 8
+
+tasks:
+  types: [open_qa, explanation, howto, analysis, brainstorming, planning,
+          summarization, rewriting, classification, extraction, debugging, coding]
+  difficulties: [easy, medium, hard]
+
+judge:
+  enabled: true
+  sample_rate: 1.0
+  min_overall: 4.0
+  rewrite:
+    enabled: true
+    max_attempts: 1
+    min_overall: 3.5
+
+filters:
+  dedup:
+    enabled: true
+    near: true
+    threshold: 0.85
+  length:
+    min_response_words: 12
+    max_response_words: 1200
+  quality: {}
+  language: {}
+  safety:
+    blocklist: ["social security number", "credit card number"]
+
+budget:
+  max_requests: null
+  max_tokens: null
+  max_usd: 5.0        # safety net: the run checkpoints and stays resumable if it trips
+
+export:
+  formats: [chatml, alpaca]
+  include_scores: true
+  write_rejected: true

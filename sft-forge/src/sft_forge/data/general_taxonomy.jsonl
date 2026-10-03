@@ -1,0 +1,144 @@
+{"topic": "choosing between to-do list apps", "domain": "everyday productivity", "task_type": "analysis", "difficulty": "easy", "audience": "someone new to task managers", "constraints": []}
+{"topic": "time-blocking a fragmented workday", "domain": "everyday productivity", "task_type": "howto", "difficulty": "medium", "audience": "a knowledge worker with back-to-back meetings", "constraints": []}
+{"topic": "reducing meeting load on a small team", "domain": "everyday productivity", "task_type": "planning", "difficulty": "medium", "audience": "a team lead", "constraints": []}
+{"topic": "building a weekly review habit", "domain": "everyday productivity", "task_type": "howto", "difficulty": "easy", "audience": "a busy parent", "constraints": []}
+{"topic": "handling email triage during a busy week", "domain": "everyday productivity", "task_type": "open_qa", "difficulty": "medium", "audience": "a freelancer", "constraints": ["suggest a concrete routine, not just principles"]}
+{"topic": "turning a rambling draft into a tight executive summary", "domain": "writing & communication", "task_type": "rewriting", "difficulty": "medium", "audience": "a manager who reports upward", "constraints": []}
+{"topic": "writing a difficult message to a colleague", "domain": "writing & communication", "task_type": "open_qa", "difficulty": "hard", "audience": "a team member avoiding conflict", "constraints": ["keep it constructive and non-accusatory"]}
+{"topic": "structuring a persuasive one-page proposal", "domain": "writing & communication", "task_type": "howto", "difficulty": "medium", "audience": "a founder pitching internally", "constraints": []}
+{"topic": "editing for concision without losing nuance", "domain": "writing & communication", "task_type": "explanation", "difficulty": "medium", "audience": "a general audience", "constraints": []}
+{"topic": "writing documentation for a non-technical audience", "domain": "writing & communication", "task_type": "rewriting", "difficulty": "medium", "audience": "a software team", "constraints": []}
+{"topic": "meal planning for one person on a budget", "domain": "cooking & food", "task_type": "planning", "difficulty": "easy", "audience": "a student cooking for themselves", "constraints": ["assume a small kitchen and limited equipment"]}
+{"topic": "why bread dough fails to rise", "domain": "cooking & food", "task_type": "debugging", "difficulty": "medium", "audience": "a home baker", "constraints": []}
+{"topic": "substituting ingredients in baking", "domain": "cooking & food", "task_type": "explanation", "difficulty": "medium", "audience": "a home baker", "constraints": ["explain which substitutions change texture, not just flavour"]}
+{"topic": "food safety for batch cooking", "domain": "cooking & food", "task_type": "howto", "difficulty": "easy", "audience": "a family cooking ahead for the week", "constraints": []}
+{"topic": "building flavour without excessive salt", "domain": "cooking & food", "task_type": "open_qa", "difficulty": "easy", "audience": "a home cook watching sodium", "constraints": []}
+{"topic": "starting a sustainable running habit", "domain": "health & fitness", "task_type": "planning", "difficulty": "easy", "audience": "a complete beginner", "constraints": ["assume no gym access"]}
+{"topic": "interpreting sleep-tracking data sensibly", "domain": "health & fitness", "task_type": "analysis", "difficulty": "medium", "audience": "a general audience", "constraints": ["avoid alarmist claims and be clear about uncertainty"]}
+{"topic": "strength training for beginners over 40", "domain": "health & fitness", "task_type": "howto", "difficulty": "medium", "audience": "someone returning to exercise after years off", "constraints": ["note when to see a doctor"]}
+{"topic": "what the evidence says about stretching before exercise", "domain": "health & fitness", "task_type": "open_qa", "difficulty": "hard", "audience": "a general audience", "constraints": ["be explicit about where evidence is weak"]}
+{"topic": "recovering from a sedentary work routine", "domain": "health & fitness", "task_type": "planning", "difficulty": "easy", "audience": "an office worker", "constraints": []}
+{"topic": "building an emergency fund on a variable income", "domain": "personal finance", "task_type": "planning", "difficulty": "medium", "audience": "a freelancer", "constraints": []}
+{"topic": "understanding index fund fees", "domain": "personal finance", "task_type": "explanation", "difficulty": "easy", "audience": "a first-time investor", "constraints": ["avoid specific investment advice; explain mechanics"]}
+{"topic": "deciding between paying debt and investing", "domain": "personal finance", "task_type": "analysis", "difficulty": "hard", "audience": "a household with a credit card balance", "constraints": ["present trade-offs rather than a single prescription"]}
+{"topic": "reading a payslip correctly", "domain": "personal finance", "task_type": "explanation", "difficulty": "easy", "audience": "a first jobber", "constraints": []}
+{"topic": "setting a household budget that people actually follow", "domain": "personal finance", "task_type": "howto", "difficulty": "medium", "audience": "a couple sharing finances", "constraints": []}
+{"topic": "planning a two-week trip with a fixed budget", "domain": "travel", "task_type": "planning", "difficulty": "medium", "audience": "a traveller on a tight budget", "constraints": []}
+{"topic": "handling a missed connection", "domain": "travel", "task_type": "howto", "difficulty": "easy", "audience": "an anxious first-time flyer", "constraints": []}
+{"topic": "packing for variable weather", "domain": "travel", "task_type": "howto", "difficulty": "easy", "audience": "a carry-on-only traveller", "constraints": []}
+{"topic": "choosing travel insurance", "domain": "travel", "task_type": "analysis", "difficulty": "medium", "audience": "a family travelling abroad", "constraints": []}
+{"topic": "navigating a country where you do not speak the language", "domain": "travel", "task_type": "open_qa", "difficulty": "easy", "audience": "a solo traveller", "constraints": []}
+{"topic": "studying effectively with spaced repetition", "domain": "learning & education", "task_type": "howto", "difficulty": "medium", "audience": "a university student", "constraints": []}
+{"topic": "teaching a concept you only half understand", "domain": "learning & education", "task_type": "open_qa", "difficulty": "hard", "audience": "a teaching assistant", "constraints": []}
+{"topic": "designing a self-study curriculum", "domain": "learning & education", "task_type": "planning", "difficulty": "medium", "audience": "a career switcher", "constraints": ["include a way to measure progress"]}
+{"topic": "taking notes that are useful months later", "domain": "learning & education", "task_type": "explanation", "difficulty": "easy", "audience": "a student", "constraints": []}
+{"topic": "recovering after failing an exam", "domain": "learning & education", "task_type": "open_qa", "difficulty": "medium", "audience": "a student facing a resit", "constraints": []}
+{"topic": "why correlation is not causation in practice", "domain": "science", "task_type": "explanation", "difficulty": "medium", "audience": "a general audience", "constraints": ["use one concrete example"]}
+{"topic": "how vaccines are tested for safety", "domain": "science", "task_type": "explanation", "difficulty": "hard", "audience": "a curious non-expert", "constraints": ["be factual and avoid medical advice"]}
+{"topic": "explaining entropy without equations", "domain": "science", "task_type": "explanation", "difficulty": "medium", "audience": "a high-school student", "constraints": []}
+{"topic": "what makes a scientific result reproducible", "domain": "science", "task_type": "open_qa", "difficulty": "hard", "audience": "a graduate researcher", "constraints": []}
+{"topic": "how carbon dating works", "domain": "science", "task_type": "explanation", "difficulty": "easy", "audience": "a general audience", "constraints": []}
+{"topic": "choosing between SQL and NoSQL for a small app", "domain": "technology & software", "task_type": "analysis", "difficulty": "medium", "audience": "a developer starting a side project", "constraints": []}
+{"topic": "why a website is slow on mobile", "domain": "technology & software", "task_type": "debugging", "difficulty": "medium", "audience": "a web developer", "constraints": []}
+{"topic": "explaining containers versus virtual machines", "domain": "technology & software", "task_type": "explanation", "difficulty": "medium", "audience": "a non-technical stakeholder", "constraints": []}
+{"topic": "planning a database migration with no downtime", "domain": "technology & software", "task_type": "planning", "difficulty": "hard", "audience": "a backend engineer", "constraints": ["call out the rollback plan"]}
+{"topic": "what an API rate limit actually protects", "domain": "technology & software", "task_type": "open_qa", "difficulty": "easy", "audience": "a junior developer", "constraints": []}
+{"topic": "choosing the right chart for a comparison", "domain": "data & statistics", "task_type": "howto", "difficulty": "easy", "audience": "an analyst preparing a deck", "constraints": []}
+{"topic": "avoiding sampling bias in surveys", "domain": "data & statistics", "task_type": "explanation", "difficulty": "medium", "audience": "a product researcher", "constraints": []}
+{"topic": "interpreting a confidence interval", "domain": "data & statistics", "task_type": "explanation", "difficulty": "medium", "audience": "a general audience with basic stats", "constraints": []}
+{"topic": "cleaning messy CSV data", "domain": "data & statistics", "task_type": "howto", "difficulty": "medium", "audience": "a data analyst", "constraints": ["describe an order of operations"]}
+{"topic": "measuring whether an A/B test won", "domain": "data & statistics", "task_type": "analysis", "difficulty": "hard", "audience": "a product manager", "constraints": ["address multiple-comparison and peeking problems"]}
+{"topic": "running a useful one-on-one", "domain": "business & management", "task_type": "howto", "difficulty": "easy", "audience": "a new manager", "constraints": []}
+{"topic": "deciding whether to hire or automate", "domain": "business & management", "task_type": "analysis", "difficulty": "hard", "audience": "a small business owner", "constraints": []}
+{"topic": "writing a decision memo", "domain": "business & management", "task_type": "howto", "difficulty": "medium", "audience": "a project lead", "constraints": []}
+{"topic": "setting goals that do not become busywork", "domain": "business & management", "task_type": "open_qa", "difficulty": "medium", "audience": "a team lead", "constraints": []}
+{"topic": "handling a project that slipped its deadline", "domain": "business & management", "task_type": "open_qa", "difficulty": "medium", "audience": "a project manager", "constraints": ["cover both internal and stakeholder communication"]}
+{"topic": "writing copy that respects the reader", "domain": "marketing", "task_type": "rewriting", "difficulty": "medium", "audience": "a small brand's marketer", "constraints": []}
+{"topic": "choosing marketing channels on a small budget", "domain": "marketing", "task_type": "planning", "difficulty": "medium", "audience": "a solo founder", "constraints": []}
+{"topic": "measuring attribution honestly", "domain": "marketing", "task_type": "analysis", "difficulty": "hard", "audience": "a growth marketer", "constraints": []}
+{"topic": "positioning a product against a bigger competitor", "domain": "marketing", "task_type": "analysis", "difficulty": "hard", "audience": "a startup marketer", "constraints": []}
+{"topic": "running a landing page experiment", "domain": "marketing", "task_type": "howto", "difficulty": "medium", "audience": "a generalist marketer", "constraints": []}
+{"topic": "explaining a contract clause in plain language", "domain": "law & policy basics", "task_type": "rewriting", "difficulty": "medium", "audience": "a small business owner", "constraints": ["do not give legal advice; suggest when to consult a lawyer"]}
+{"topic": "privacy obligations when handling customer data", "domain": "law & policy basics", "task_type": "explanation", "difficulty": "hard", "audience": "a small SaaS operator", "constraints": ["stay at the level of principles and note jurisdictional variation"]}
+{"topic": "responding to a data breach notification", "domain": "law & policy basics", "task_type": "howto", "difficulty": "medium", "audience": "an IT manager", "constraints": []}
+{"topic": "what 'without prejudice' means in correspondence", "domain": "law & policy basics", "task_type": "explanation", "difficulty": "medium", "audience": "a general audience", "constraints": []}
+{"topic": "licensing text and images correctly", "domain": "law & policy basics", "task_type": "open_qa", "difficulty": "easy", "audience": "a content creator", "constraints": []}
+{"topic": "fixing a dripping tap safely", "domain": "home & DIY", "task_type": "howto", "difficulty": "easy", "audience": "a first-time DIYer", "constraints": ["include when to call a professional"]}
+{"topic": "planning a small kitchen renovation", "domain": "home & DIY", "task_type": "planning", "difficulty": "hard", "audience": "a homeowner", "constraints": ["include a realistic budget breakdown"]}
+{"topic": "understanding home electrical circuits before DIY", "domain": "home & DIY", "task_type": "explanation", "difficulty": "hard", "audience": "a cautious homeowner", "constraints": ["emphasise safety limits of DIY work"]}
+{"topic": "choosing insulation that pays back", "domain": "home & DIY", "task_type": "analysis", "difficulty": "medium", "audience": "a homeowner", "constraints": []}
+{"topic": "keeping a rental deposit intact", "domain": "home & DIY", "task_type": "howto", "difficulty": "easy", "audience": "a renter", "constraints": []}
+{"topic": "diagnosing a car that will not start", "domain": "cars & transport", "task_type": "debugging", "difficulty": "medium", "audience": "a driver with basic tools", "constraints": []}
+{"topic": "understanding what a service quote covers", "domain": "cars & transport", "task_type": "analysis", "difficulty": "easy", "audience": "a car owner who feels out of their depth", "constraints": []}
+{"topic": "choosing between electric and hybrid", "domain": "cars & transport", "task_type": "analysis", "difficulty": "medium", "audience": "a household replacing an ageing car", "constraints": []}
+{"topic": "safe tyre maintenance", "domain": "cars & transport", "task_type": "howto", "difficulty": "easy", "audience": "a new driver", "constraints": []}
+{"topic": "planning a commute around public transport delays", "domain": "cars & transport", "task_type": "planning", "difficulty": "easy", "audience": "a commuter", "constraints": []}
+{"topic": "reducing household energy use with real numbers", "domain": "environment & sustainability", "task_type": "howto", "difficulty": "medium", "audience": "a homeowner", "constraints": []}
+{"topic": "understanding local recycling rules", "domain": "environment & sustainability", "task_type": "explanation", "difficulty": "easy", "audience": "a householder who just moved", "constraints": []}
+{"topic": "comparing carbon footprints of transport modes", "domain": "environment & sustainability", "task_type": "analysis", "difficulty": "medium", "audience": "a general audience", "constraints": []}
+{"topic": "spotting greenwashing claims", "domain": "environment & sustainability", "task_type": "open_qa", "difficulty": "medium", "audience": "a shopper", "constraints": []}
+{"topic": "cutting food waste at home", "domain": "environment & sustainability", "task_type": "planning", "difficulty": "easy", "audience": "a family", "constraints": []}
+{"topic": "why habits are hard to break", "domain": "psychology", "task_type": "explanation", "difficulty": "medium", "audience": "a general audience", "constraints": []}
+{"topic": "recognising cognitive biases in everyday decisions", "domain": "psychology", "task_type": "open_qa", "difficulty": "medium", "audience": "a general audience", "constraints": ["give concrete decision hygiene, not a list of jargon"]}
+{"topic": "supporting a friend who is struggling", "domain": "psychology", "task_type": "open_qa", "difficulty": "hard", "audience": "a caring friend", "constraints": ["be careful not to give clinical advice"]}
+{"topic": "how stress affects memory and attention", "domain": "psychology", "task_type": "explanation", "difficulty": "medium", "audience": "a student", "constraints": []}
+{"topic": "misconceptions about personality tests", "domain": "psychology", "task_type": "open_qa", "difficulty": "easy", "audience": "a general audience", "constraints": []}
+{"topic": "why empires decline", "domain": "history", "task_type": "analysis", "difficulty": "hard", "audience": "a general audience", "constraints": ["avoid single-cause explanations"]}
+{"topic": "how the printing press changed society", "domain": "history", "task_type": "explanation", "difficulty": "medium", "audience": "a general audience", "constraints": []}
+{"topic": "reading a primary source critically", "domain": "history", "task_type": "howto", "difficulty": "medium", "audience": "a history student", "constraints": []}
+{"topic": "the causes of a historical famine", "domain": "history", "task_type": "analysis", "difficulty": "hard", "audience": "a general audience", "constraints": ["separate proximate triggers from underlying causes"]}
+{"topic": "how trade routes shaped cities", "domain": "history", "task_type": "explanation", "difficulty": "medium", "audience": "a curious reader", "constraints": []}
+{"topic": "learning an instrument as an adult", "domain": "art & music", "task_type": "planning", "difficulty": "medium", "audience": "a busy adult beginner", "constraints": []}
+{"topic": "understanding why a chord progression works", "domain": "art & music", "task_type": "explanation", "difficulty": "medium", "audience": "a self-taught guitarist", "constraints": []}
+{"topic": "writing an artist statement", "domain": "art & music", "task_type": "howto", "difficulty": "medium", "audience": "a visual artist", "constraints": ["avoid artspeak"]}
+{"topic": "critiquing a photograph constructively", "domain": "art & music", "task_type": "open_qa", "difficulty": "medium", "audience": "a photography club member", "constraints": []}
+{"topic": "choosing colours that work together", "domain": "art & music", "task_type": "howto", "difficulty": "easy", "audience": "a beginner designer", "constraints": []}
+{"topic": "building vocabulary that sticks", "domain": "language learning", "task_type": "howto", "difficulty": "easy", "audience": "an intermediate learner", "constraints": []}
+{"topic": "overcoming the fear of speaking", "domain": "language learning", "task_type": "open_qa", "difficulty": "medium", "audience": "an adult learner", "constraints": []}
+{"topic": "using subtitles effectively", "domain": "language learning", "task_type": "explanation", "difficulty": "easy", "audience": "a learner watching shows", "constraints": []}
+{"topic": "choosing a study method after the beginner stage", "domain": "language learning", "task_type": "planning", "difficulty": "medium", "audience": "an intermediate learner who has plateaued", "constraints": []}
+{"topic": "sounding natural in a second language", "domain": "language learning", "task_type": "open_qa", "difficulty": "hard", "audience": "an advanced learner", "constraints": []}
+{"topic": "improving at a sport with limited practice time", "domain": "sports & recreation", "task_type": "planning", "difficulty": "medium", "audience": "an amateur player", "constraints": []}
+{"topic": "understanding a training pyramid", "domain": "sports & recreation", "task_type": "explanation", "difficulty": "medium", "audience": "a recreational athlete", "constraints": []}
+{"topic": "avoiding common running injuries", "domain": "sports & recreation", "task_type": "open_qa", "difficulty": "medium", "audience": "a newer runner", "constraints": ["be clear about what is general guidance versus individual advice"]}
+{"topic": "coaching children without pressure", "domain": "sports & recreation", "task_type": "open_qa", "difficulty": "medium", "audience": "a volunteer youth coach", "constraints": []}
+{"topic": "planning a season schedule", "domain": "sports & recreation", "task_type": "planning", "difficulty": "easy", "audience": "a club organiser", "constraints": []}
+{"topic": "handling screen-time disagreements", "domain": "parenting & family", "task_type": "open_qa", "difficulty": "hard", "audience": "a parent of a pre-teen", "constraints": ["avoid judgemental framing"]}
+{"topic": "helping a child with homework without taking over", "domain": "parenting & family", "task_type": "howto", "difficulty": "medium", "audience": "a parent", "constraints": []}
+{"topic": "sleep routines that survive travel", "domain": "parenting & family", "task_type": "howto", "difficulty": "easy", "audience": "a parent of a toddler", "constraints": []}
+{"topic": "talking to children about money", "domain": "parenting & family", "task_type": "open_qa", "difficulty": "medium", "audience": "a parent of a nine-year-old", "constraints": []}
+{"topic": "managing sibling conflict", "domain": "parenting & family", "task_type": "open_qa", "difficulty": "medium", "audience": "a parent of two children", "constraints": []}
+{"topic": "writing a CV that survives screening", "domain": "careers & job search", "task_type": "rewriting", "difficulty": "medium", "audience": "a mid-career applicant", "constraints": []}
+{"topic": "negotiating a salary offer", "domain": "careers & job search", "task_type": "howto", "difficulty": "hard", "audience": "a candidate with one competing offer", "constraints": ["give concrete phrasing, not just principles"]}
+{"topic": "preparing for a technical interview", "domain": "careers & job search", "task_type": "planning", "difficulty": "medium", "audience": "a junior developer", "constraints": []}
+{"topic": "deciding whether to change careers", "domain": "careers & job search", "task_type": "analysis", "difficulty": "hard", "audience": "a professional in their thirties", "constraints": []}
+{"topic": "asking for a promotion with evidence", "domain": "careers & job search", "task_type": "howto", "difficulty": "medium", "audience": "a high-performing individual contributor", "constraints": []}
+{"topic": "handling an angry customer message", "domain": "customer support & service", "task_type": "rewriting", "difficulty": "medium", "audience": "a support agent", "constraints": ["keep the tone warm but accountable"]}
+{"topic": "writing a useful help-centre article", "domain": "customer support & service", "task_type": "howto", "difficulty": "medium", "audience": "a support team lead", "constraints": []}
+{"topic": "escalating a bug report internally", "domain": "customer support & service", "task_type": "howto", "difficulty": "easy", "audience": "a support engineer", "constraints": []}
+{"topic": "setting expectations after a delayed delivery", "domain": "customer support & service", "task_type": "rewriting", "difficulty": "easy", "audience": "a support agent", "constraints": []}
+{"topic": "apologising without over-promising", "domain": "customer support & service", "task_type": "open_qa", "difficulty": "medium", "audience": "a support manager", "constraints": []}
+{"topic": "working through a workplace ethical dilemma", "domain": "ethics & society", "task_type": "analysis", "difficulty": "hard", "audience": "an employee facing pressure", "constraints": ["lay out a decision procedure"]}
+{"topic": "using AI tools without misrepresenting your work", "domain": "ethics & society", "task_type": "open_qa", "difficulty": "medium", "audience": "a knowledge worker", "constraints": []}
+{"topic": "balancing privacy and safety in schools", "domain": "ethics & society", "task_type": "analysis", "difficulty": "hard", "audience": "a school administrator", "constraints": []}
+{"topic": "deciding when to speak up", "domain": "ethics & society", "task_type": "open_qa", "difficulty": "hard", "audience": "a junior team member", "constraints": []}
+{"topic": "handling conflicting cultural norms at work", "domain": "ethics & society", "task_type": "open_qa", "difficulty": "hard", "audience": "an international team member", "constraints": []}
+{"topic": "understanding compound interest intuitively", "domain": "math", "task_type": "explanation", "difficulty": "easy", "audience": "a general audience", "constraints": []}
+{"topic": "solving a probability puzzle step by step", "domain": "math", "task_type": "math", "difficulty": "medium", "audience": "a student", "constraints": ["show every step"]}
+{"topic": "why the order of operations exists", "domain": "math", "task_type": "explanation", "difficulty": "easy", "audience": "a school student", "constraints": []}
+{"topic": "estimating a Fermi problem", "domain": "math", "task_type": "math", "difficulty": "medium", "audience": "a curious adult", "constraints": ["show the reasoning chain and the uncertainty"]}
+{"topic": "reading a statistical claim in the news", "domain": "math", "task_type": "analysis", "difficulty": "medium", "audience": "a general audience", "constraints": []}
+{"topic": "writing a small script to rename files safely", "domain": "technology & software", "task_type": "coding", "difficulty": "easy", "audience": "someone who knows a little Python", "constraints": ["include error handling"]}
+{"topic": "turning a messy spreadsheet into a tidy dataset", "domain": "data & statistics", "task_type": "coding", "difficulty": "medium", "audience": "an analyst who uses Python", "constraints": []}
+{"topic": "implementing retry with exponential backoff", "domain": "technology & software", "task_type": "coding", "difficulty": "medium", "audience": "a backend developer", "constraints": ["show a working implementation"]}
+{"topic": "generating practice questions to self-quiz on a topic", "domain": "everyday productivity", "task_type": "brainstorming", "difficulty": "easy", "audience": "a self-learner", "constraints": []}
+{"topic": "generating campaign angles for a niche product", "domain": "marketing", "task_type": "brainstorming", "difficulty": "medium", "audience": "a content marketer", "constraints": ["aim for genuinely different angles, not synonyms"]}
+{"topic": "generating agenda ideas for a quarterly offsite", "domain": "business & management", "task_type": "brainstorming", "difficulty": "easy", "audience": "an operations lead", "constraints": []}
+{"topic": "summarising a long thread into decisions and owners", "domain": "writing & communication", "task_type": "summarization", "difficulty": "medium", "audience": "a project manager", "constraints": ["separate decisions from open questions"]}
+{"topic": "summarising a dense research abstract for a smart non-expert", "domain": "science", "task_type": "summarization", "difficulty": "hard", "audience": "a science journalist", "constraints": ["keep numbers that matter, drop the rest"]}
+{"topic": "summarising a booking confirmation into the essentials", "domain": "travel", "task_type": "summarization", "difficulty": "easy", "audience": "a traveller", "constraints": []}
+{"topic": "classifying support tickets by intent and urgency", "domain": "customer support & service", "task_type": "classification", "difficulty": "medium", "audience": "a support team lead", "constraints": ["give a labelling scheme and apply it"]}
+{"topic": "classifying household waste correctly", "domain": "environment & sustainability", "task_type": "classification", "difficulty": "easy", "audience": "a householder", "constraints": []}
+{"topic": "extracting fields from invoices reliably", "domain": "data & statistics", "task_type": "extraction", "difficulty": "hard", "audience": "an operations engineer", "constraints": ["discuss failure modes and validation"]}
+{"topic": "extracting the key requirements from a job posting", "domain": "careers & job search", "task_type": "extraction", "difficulty": "easy", "audience": "a job seeker", "constraints": []}
+{"topic": "extracting a weekly training plan from a long article", "domain": "health & fitness", "task_type": "extraction", "difficulty": "medium", "audience": "a recreational athlete", "constraints": []}

@@ -1,0 +1,66 @@
+# Quality-over-volume profile: best-of-n answers, resampling of weak seeds, hard judge
+# bar, and a train/validation split. Costs roughly 4-6x the general config per example.
+
+run:
+  name: general-sft-highquality
+  output_dir: runs
+  seed: 23
+  resume: true
+
+provider:
+  kind: openai_compat
+  base_url: ${OPENAI_BASE_URL:-https://api.openai.com/v1}
+  api_key: ${OPENAI_API_KEY}
+  rate_limit_per_minute: 400
+
+models:
+  generator: ${SFT_FORGE_GENERATOR_MODEL:-gpt-4o}       # stronger writer
+  judge: ${SFT_FORGE_JUDGE_MODEL:-gpt-4o-mini}          # judging is easier than writing
+  prices:
+    gpt-4o: {in: 2.5, out: 10.0}
+    gpt-4o-mini: {in: 0.15, out: 0.60}
+
+generation:
+  temperature: 0.95
+  top_p: 0.95
+  max_tokens: 1600
+  concurrency: 8
+  seeds_per_topic: 4
+  response_candidates: 3        # generate 3 answers per instruction; the judge keeps the best
+
+seeds:
+  source: taxonomy
+  limit: 40
+  expansion:
+    enabled: true               # invent additional topics for the busiest domains
+    per_domain: 6
+    domains: [technology & software, business & management, data & statistics]
+
+judge:
+  sample_rate: 1.0
+  min_overall: 4.5              # only clearly strong answers survive
+  on_error: reject
+  rewrite:
+    enabled: true
+    max_attempts: 2
+    min_overall: 3.5
+
+filters:
+  dedup:
+    enabled: true
+    threshold: 0.8              # tighter near-duplicate threshold
+  length:
+    min_response_words: 30
+    max_response_words: 900
+  quality:
+    min_unique_token_ratio: 0.28
+
+budget:
+  max_usd: 25.0
+
+export:
+  formats: [chatml, sharegpt]
+  include_scores: true
+  splits:
+    train: 0.9
+    test: 0.1

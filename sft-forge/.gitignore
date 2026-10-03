@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets / local config
+.env
+.env.local
+
+# Pipeline outputs (regenerate with `sft-forge run -c configs/demo_mock.yaml`)
+runs/
+.cache/
+*.sqlite
+*.sqlite-journal
+
+# OS
+.DS_Store

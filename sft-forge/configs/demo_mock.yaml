@@ -1,0 +1,51 @@
+# Offline demo: runs the entire workflow with no API key and no network.
+#   sft-forge run -c configs/demo_mock.yaml
+# Handy for wiring up training code, checking output formats, and CI smoke tests.
+
+run:
+  name: demo-mock
+  output_dir: runs
+  seed: 7
+  resume: true
+
+provider:
+  kind: mock
+  mock_latency_s: 0.0
+
+models:
+  generator: mock-model
+  judge: mock-model
+
+generation:
+  concurrency: 8
+  seeds_per_topic: 3
+  response_candidates: 1
+
+seeds:
+  source: taxonomy
+  domains: [technology & software, everyday productivity, learning & education]
+  limit: 12
+
+tasks:
+  types: [open_qa, explanation, howto, analysis]
+  difficulties: [easy, medium, hard]
+
+judge:
+  enabled: true
+  min_overall: 4.0
+  rewrite:
+    enabled: true
+    max_attempts: 1
+
+filters:
+  dedup:
+    enabled: true
+
+budget:
+  max_requests: 500
+
+export:
+  formats: [chatml, alpaca]
+  splits:
+    train: 0.8
+    validation: 0.2
